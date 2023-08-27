@@ -1,5 +1,4 @@
 import random
-import pprint
 import numpy as np
 
 PAI_N = 44
@@ -51,5 +50,3 @@ class Gene:
 
 if __name__ == "__main__":
     game = Game()
-    x = game.hands[0] + sum(game.rivers, [])
-    print(x)
